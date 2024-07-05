@@ -32,6 +32,7 @@ import { BlogdetailsComponent } from './blogdetails/blogdetails.component';
     Index6Component,
     BloglistComponent,
     BlogdetailsComponent
+    
   ],
   imports: [
     CommonModule,

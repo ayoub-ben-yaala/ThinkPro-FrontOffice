@@ -21,6 +21,7 @@ import { AboutComponent } from './about/about.component';
 import { CtaComponent } from './cta/cta.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
+import { LevelComponent } from './level-management/level/level.component';
 
 
 
@@ -34,7 +35,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     CtaComponent,
     BlogComponent,
-    ContactComponent
+    ContactComponent,
+    LevelComponent
 
   ],
   imports: [
@@ -54,7 +56,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     CtaComponent,
     BlogComponent,
-    ContactComponent
+    ContactComponent,
+    LevelComponent
   ]
 
 })
