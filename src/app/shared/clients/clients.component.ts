@@ -81,9 +81,9 @@ export class ClientsComponent {
   }
   exportToPDF(levelNumber: number): void {
     const doc = new jsPDF();
-    const courses = this.getCoursList(levelNumber).map(course => [course.courName, course.duration, course.description]);
+    const courses = this.getCoursList(levelNumber).map(course => [course.courName, course.duration, course.coef]);
     autoTable(doc, {
-      head: [['Course Name', 'Duration', 'Description']],
+      head: [['Course Name', 'Duration', 'Coefficient']],
       body: courses,
     });
     doc.save(`courses_level_${levelNumber}.pdf`);
